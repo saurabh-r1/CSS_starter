@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+@media(max-width:600px){
+    body{
+        background-color: rgb(33, 201, 18);
+        
+    }
+}
+#container{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    
+    background-color: yellow;
+}
+#box3{
+    
+    background-color: green;
+}
+#box4{
+    
+    background-color: red;
+}
+#box5{
+    
+    background-color:darkorchid;
+}
